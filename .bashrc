@@ -115,3 +115,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Vim/tmux color issue?
+export TERM="xterm-256color"
